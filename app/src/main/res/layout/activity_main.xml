@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rayonpinnock.christinesdelights.MainActivity">
+
+    <ImageView
+        android:id="@+id/logo_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/logo"/>
+
+    <TextView
+        android:id="@+id/company_name_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:background="#02a4cc"
+        android:text="Christine's Delights"
+        android:textColor="#000000"
+        android:fontFamily="cursive"
+        android:textSize="42sp"/>
+
+    <TextView
+        android:id="@+id/company_tag_line_text_view"
+        android:layout_below="@id/company_name_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="#02a4cc"
+        android:textColor="#ffffff"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Fabulous Cakes &amp; Cupcakes for All Occasions"/>
+
+    <TextView
+        android:id="@+id/company_contact_info_text_view_left"
+        android:background="#4cafc7"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Wilmington, DE\n(302) 897-7377"/>
+
+    <TextView
+        android:id="@+id/company_contact_info_text_view_right"
+        android:background="#4cafc7"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/company_contact_info_text_view_left"
+        android:gravity="right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="ChristinesDelights.com\nfacebook.com/ChristinesDelights"/>
+
+
+
+</RelativeLayout>
