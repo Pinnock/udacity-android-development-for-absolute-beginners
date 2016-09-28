@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Christine\'s Delights</string>
+    <string name="business_name">Christine\'s Delights</string>
+    <string name="business_tag_line">Fabulous cakes &amp; cupcakes for all occasions</string>
+    <string name="business_address_phone">Wilmington, DE\n(302) 879-7377</string>
+    <string name="business_web_info">ChristinesDelights.com\nfacebook.com/ChristinesDelights</string>
 </resources>
